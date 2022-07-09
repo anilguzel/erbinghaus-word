@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "i1xmpdFVodfkYZeq5mNxcCwOXKYNQQKkY2bEFiKbdko=",
+  "Source": "Ebbinghaus.WebApi",
+  "BasePath": "_content/Ebbinghaus.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

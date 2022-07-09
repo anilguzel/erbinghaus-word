@@ -1,0 +1,321 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.WebApi/Ebbinghaus.WebApi.csproj": {}
+  },
+  "projects": {
+    "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Application/Ebbinghaus.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Application/Ebbinghaus.Application.csproj",
+        "projectName": "Ebbinghaus.Application",
+        "projectPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Application/Ebbinghaus.Application.csproj",
+        "packagesPath": "/Users/anilguzel/.nuget/packages/",
+        "outputPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anilguzel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Domain/Ebbinghaus.Domain.csproj": {
+                "projectPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Domain/Ebbinghaus.Domain.csproj"
+              },
+              "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/Ebbinghaus.Framework.csproj": {
+                "projectPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/Ebbinghaus.Framework.csproj"
+              },
+              "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Infrastructure/Ebbinghaus.Infrastructure.csproj": {
+                "projectPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Infrastructure/Ebbinghaus.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Domain/Ebbinghaus.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Domain/Ebbinghaus.Domain.csproj",
+        "projectName": "Ebbinghaus.Domain",
+        "projectPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Domain/Ebbinghaus.Domain.csproj",
+        "packagesPath": "/Users/anilguzel/.nuget/packages/",
+        "outputPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anilguzel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/Ebbinghaus.Framework.csproj": {
+                "projectPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/Ebbinghaus.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/Ebbinghaus.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/Ebbinghaus.Framework.csproj",
+        "projectName": "Ebbinghaus.Framework",
+        "projectPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/Ebbinghaus.Framework.csproj",
+        "packagesPath": "/Users/anilguzel/.nuget/packages/",
+        "outputPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anilguzel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Infrastructure/Ebbinghaus.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Infrastructure/Ebbinghaus.Infrastructure.csproj",
+        "projectName": "Ebbinghaus.Infrastructure",
+        "projectPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Infrastructure/Ebbinghaus.Infrastructure.csproj",
+        "packagesPath": "/Users/anilguzel/.nuget/packages/",
+        "outputPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anilguzel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.WebApi/Ebbinghaus.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.WebApi/Ebbinghaus.WebApi.csproj",
+        "projectName": "Ebbinghaus.WebApi",
+        "projectPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.WebApi/Ebbinghaus.WebApi.csproj",
+        "packagesPath": "/Users/anilguzel/.nuget/packages/",
+        "outputPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anilguzel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Application/Ebbinghaus.Application.csproj": {
+                "projectPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Application/Ebbinghaus.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

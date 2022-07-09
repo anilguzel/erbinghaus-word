@@ -1,0 +1,12 @@
+/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/bin/Debug/net6.0/Ebbinghaus.Framework.deps.json
+/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/bin/Debug/net6.0/Ebbinghaus.Framework.dll
+/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/bin/Debug/net6.0/Ebbinghaus.Framework.pdb
+/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/obj/Debug/net6.0/Ebbinghaus.Framework.csproj.AssemblyReference.cache
+/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/obj/Debug/net6.0/Ebbinghaus.Framework.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/obj/Debug/net6.0/Ebbinghaus.Framework.AssemblyInfoInputs.cache
+/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/obj/Debug/net6.0/Ebbinghaus.Framework.AssemblyInfo.cs
+/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/obj/Debug/net6.0/Ebbinghaus.Framework.csproj.CoreCompileInputs.cache
+/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/obj/Debug/net6.0/Ebbinghaus.Framework.dll
+/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/obj/Debug/net6.0/refint/Ebbinghaus.Framework.dll
+/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/obj/Debug/net6.0/Ebbinghaus.Framework.pdb
+/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/obj/Debug/net6.0/ref/Ebbinghaus.Framework.dll
