@@ -21,7 +21,7 @@ public class CardController : ControllerBase
     }
 
     [HttpGet("feed")]
-    public async Task<DailyFeedContract> DailyFeedAsync([FromServices] IQueryHandler<DailyFeedQuery, DailyFeedQueryHandlerResult> handler, [FromBody] object request)
+    public async Task<DailyFeedContract> DailyFeedAsync([FromServices] IQueryHandler<DailyFeedQuery, DailyFeedQueryHandlerResult> handler)
     {
         var result = await handler.HandleAsync(new DailyFeedQuery(), new CancellationToken());
         return result.DailyFeed;

@@ -104,6 +104,9 @@
             "projectReferences": {
               "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/Ebbinghaus.Framework.csproj": {
                 "projectPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Framework/Ebbinghaus.Framework.csproj"
+              },
+              "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Infrastructure/Ebbinghaus.Infrastructure.csproj": {
+                "projectPath": "/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Infrastructure/Ebbinghaus.Infrastructure.csproj"
               }
             }
           }
@@ -228,6 +231,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.16.1, )"

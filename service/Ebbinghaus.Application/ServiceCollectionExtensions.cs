@@ -1,10 +1,9 @@
 using Microsoft.Extensions.DependencyInjection;
 using Ebbinghaus.Framework;
 using Ebbinghaus.Domain.Commands;
-using AutoMapper;
 using Ebbinghaus.Application.UseCases;
 
-namespace Alakazam.Basket.Application
+namespace Ebbinghaus.Application
 {
     public static class ServiceCollectionExtensions
     {
@@ -12,21 +11,13 @@ namespace Alakazam.Basket.Application
         {
             return services
                 .SetupCommandHandler();
-                // .SetupMappings();
         }
 
         private static IServiceCollection SetupCommandHandler(this IServiceCollection services)
         {
-            services.AddSingleton<ICommandHandler<AllCardsCommand, AllCardsCommandResult>, AllCardsCommandHandler>();
-            services.AddSingleton<ICommandHandler<DailyFeedCommand, DailyFeedCommandResult>, DailyFeedCommandHandler>();
+            services.AddSingleton<ICommandHandler<AllCardsCommand, AllCardsCommandHandlerResult>, AllCardsCommandHandler>();
+            services.AddSingleton<IQueryHandler<DailyFeedQuery, DailyFeedQueryHandlerResult>, DailyFeedQueryHandler>();
             return services;
         }
-
-        // private static IServiceCollection SetupMappings(this IServiceCollection services)
-        // {
-        //     return services.AddAutoMapper(cfg =>{
-        //         cfg.AddProfile<BasketContractProfile>();
-        //     });
-        // }
     }
 }

@@ -13,3 +13,5 @@
 /Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Domain/obj/Debug/net6.0/refint/Ebbinghaus.Domain.dll
 /Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Domain/obj/Debug/net6.0/Ebbinghaus.Domain.pdb
 /Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Domain/obj/Debug/net6.0/ref/Ebbinghaus.Domain.dll
+/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Domain/bin/Debug/net6.0/Ebbinghaus.Infrastructure.dll
+/Users/anilguzel/Documents/Development/ebbinghaus/service/Ebbinghaus.Domain/bin/Debug/net6.0/Ebbinghaus.Infrastructure.pdb

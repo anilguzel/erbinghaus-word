@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Ebbinghaus.Framework\Ebbinghaus.Framework.csproj" />
+    <ProjectReference Include="..\Ebbinghaus.Infrastructure\Ebbinghaus.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

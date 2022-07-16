@@ -2,8 +2,8 @@ using MongoDB.Driver;
 
 public class AppMongoContext : IMongoContext
 {
-    private readonly string connectionString = "";
-    private readonly string databaseName = "";
+    private readonly string databaseName = "ebbinghaus";
+    private readonly string connectionString = "mongodb://localhost:27017";
 
     private IMongoDatabase _database;
     public AppMongoContext()
@@ -12,14 +12,14 @@ public class AppMongoContext : IMongoContext
         _database = client.GetDatabase(databaseName);
     }
 
-    public IMongoCollection<T> GetCollection<T>(string name)
+    public IMongoCollection<T> GetCollection<T>()
     {
-        return _database.GetCollection<T>(name);
+        return _database.GetCollection<T>(typeof(T).ToString());
     }
 }
 
 
 public interface IMongoContext
 {
-    IMongoCollection<T> GetCollection<T>(string name);
+    IMongoCollection<T> GetCollection<T>();
 }
