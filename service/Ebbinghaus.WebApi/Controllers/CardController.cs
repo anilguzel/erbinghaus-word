@@ -13,17 +13,17 @@ namespace Ebbinghaus.WebApi.Controllers;
 public class CardController : ControllerBase
 {
 
-    [HttpGet]
-    public async Task<AllCardsContract> AllCardsAsync([FromServices] ICommandHandler<AllCardsCommand, AllCardsCommandResult> handler)
+    [HttpGet("all")]
+    public async Task<AllCardsContract> AllCardsAsync([FromServices] ICommandHandler<AllCardsCommand, AllCardsCommandHandlerResult> handler)
     {
         var result = await handler.HandleAsync(new AllCardsCommand(), new CancellationToken());
         return result.AllCards;
     }
 
-    [HttpGet]
-    public async Task<DailyFeedContract> DailyFeedAsync([FromServices] ICommandHandler<DailyFeedCommand, DailyFeedCommandResult> handler, [FromBody] object request)
+    [HttpGet("feed")]
+    public async Task<DailyFeedContract> DailyFeedAsync([FromServices] IQueryHandler<DailyFeedQuery, DailyFeedQueryHandlerResult> handler, [FromBody] object request)
     {
-        var result = await handler.HandleAsync(new DailyFeedCommand(), new CancellationToken());
+        var result = await handler.HandleAsync(new DailyFeedQuery(), new CancellationToken());
         return result.DailyFeed;
     }
 

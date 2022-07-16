@@ -256,6 +256,7 @@
       "Ebbinghaus.Domain/1.0.0": {
         "dependencies": {
           "Ebbinghaus.Framework": "1.0.0",
+          "Ebbinghaus.Infrastructure": "1.0.0",
           "MongoDB.Driver": "2.16.1"
         },
         "runtime": {
@@ -269,6 +270,7 @@
       },
       "Ebbinghaus.Infrastructure/1.0.0": {
         "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "MongoDB.Driver": "2.16.1"
         },
         "runtime": {
