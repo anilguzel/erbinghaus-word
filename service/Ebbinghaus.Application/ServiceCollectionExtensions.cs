@@ -15,7 +15,10 @@ namespace Ebbinghaus.Application
 
         private static IServiceCollection SetupCommandHandler(this IServiceCollection services)
         {
-            services.AddSingleton<ICommandHandler<AllCardsCommand, AllCardsCommandHandlerResult>, AllCardsCommandHandler>();
+            services.AddSingleton<ICommandHandler<CreateWordCommand, CreateWordCommandHandlerResult>, CreateWordCommandHandler>();
+            services.AddSingleton<ICommandHandler<UpdateWordCommand, UpdateWordCommandHandlerResult>, UpdateWordCommandHandler>();
+            services.AddSingleton<ICommandHandler<CreateWordSentenceCommand, CreateWordSentenceCommandHandlerResult>, CreateWordSentenceCommandHandler>();
+            services.AddSingleton<ICommandHandler<UpdateWordSentenceCommand, UpdateWordSentenceCommandHandlerResult>, UpdateWordSentenceCommandHandler>();
             services.AddSingleton<IQueryHandler<DailyFeedQuery, DailyFeedQueryHandlerResult>, DailyFeedQueryHandler>();
             return services;
         }
