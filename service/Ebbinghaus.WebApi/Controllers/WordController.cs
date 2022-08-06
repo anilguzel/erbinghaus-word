@@ -16,7 +16,7 @@ public class WordController : ControllerBase
     public async Task<CreateWordCommandHandlerResult> Create([FromServices] ICommandHandler<CreateWordCommand, CreateWordCommandHandlerResult> handler,
     [FromBody] CreateWordRequest request)
     {
-        var result = await handler.HandleAsync(new CreateWordCommand(request.Name), new CancellationToken());
+        var result = await handler.HandleAsync(new CreateWordCommand(request.Name, request.CardId), new CancellationToken());
         return result;
     }
 
@@ -24,7 +24,7 @@ public class WordController : ControllerBase
     public async Task<UpdateWordCommandHandlerResult> Update([FromServices] ICommandHandler<UpdateWordCommand, UpdateWordCommandHandlerResult> handler,
     [FromBody] UpdateWordRequest request)
     {
-        var result = await handler.HandleAsync(new UpdateWordCommand(request.Id, request.Name), new CancellationToken());
+        var result = await handler.HandleAsync(new UpdateWordCommand(request.CardId, request.Id, request.Name), new CancellationToken());
         return result;
     }
     
